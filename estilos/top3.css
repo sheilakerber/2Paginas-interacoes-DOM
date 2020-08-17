@@ -1,0 +1,93 @@
+#melhores3livros {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+#livro1,
+#livro2,
+#livro3 {
+    background-color: rgba(103, 22, 108, 0.1);
+    padding: 5px 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(103, 22, 108);
+    display: block;
+    text-align: justify;
+}
+
+#livro1 img,
+#livro2 img,
+#livro3 img {
+    width: 35%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* */
+
+h3,
+h4 {
+    text-align: center;
+    color: black;
+}
+
+img {
+    border-radius: 5px;
+    margin: 0 150px;
+}
+
+#cabecalhoTop3 {
+    background-color: rgba(103, 22, 108, 0.1);
+    padding: 10px 30px;
+    margin: 5px 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(103, 22, 108);
+    text-align: center;
+}
+
+#cabecalhoTop3 ol {
+    display: inline-flex;
+    text-decoration: none;
+}
+
+#cabecalhoTop3 ol a {
+    text-decoration: none;
+    list-style: none;
+    margin: 0 8px;
+    color: rgba(103, 22, 108);
+    font-size: 13pt;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#cabecalhoTop3 ol a:hover {
+    color: white;
+    background-color: rgba(103, 22, 108);
+}
+
+#fonteCanaltech {
+    color: gray;
+}
+
+#fonteCanaltech a {
+    color: gray;
+    text-decoration: none;
+}
+
+#fonteCanaltech a:hover {
+    color: rgba(103, 22, 108);
+    text-decoration: underline;
+}
+
+#cabecalhoTop3 img {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}

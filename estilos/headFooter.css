@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(211, 211, 208);
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    background-color: rgba(103, 22, 108, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    text-decoration: none;
+    color: rgba(103, 22, 108);
+    font-weight: 800;
+    font-size: 14pt;
+    margin: 0 40px;
+    padding: 0px 5px;
+}
+
+header li a:hover {
+    color: white;
+    background-color: rgba(103, 22, 108, 0.8);
+    border-radius: 8px;
+}
+
+nav {
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+footer {
+    display: block;
+    position: relative;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    line-height: 18px;
+    margin-bottom: 30px;
+    margin-top: 300px;
+    border-top: 1px solid rgba(103, 22, 108);
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(103, 22, 108);
+}
+
+footer a:hover {
+    color: rgb(209, 33, 209);
+}
+
+
+/*botoes back and forward*/
+
+#buttonsForwardBack {
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 20px 0;
+}
+
+#buttonsForwardBack img {
+    display: inline-block;
+    width: 45px;
+    padding: 5px;
+    margin: 0 30px;
+}
+
+#buttonBack,
+#buttonForwar {
+    background-color: black;
+    width: 25px;
+    border-radius: 30px;
+}
+
+#buttonBack:hover,
+#buttonForwar:hover {
+    background-color: rgb(104, 11, 130);
+    cursor: pointer;
+}
